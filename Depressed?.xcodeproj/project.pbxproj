@@ -120,8 +120,8 @@
 		CA8683961BE16D0B003E87A4 /* QuestionIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionIdentifier.swift; sourceTree = "<group>"; };
 		CAAB26D41C3C711A00A7B943 /* InfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewModel.swift; sourceTree = "<group>"; };
 		CAAB26D61C3C727700A7B943 /* InfoViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewModelSpec.swift; sourceTree = "<group>"; };
-		CAB4B0311EE1AC9F00D2E130 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		CAB4B02E1EE191EC00D2E130 /* Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		CAB4B0311EE1AC9F00D2E130 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		CAEE7DBF1C07499000DDAA5E /* Depressed?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Depressed?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEE7DC11C07499000DDAA5E /* Depressed_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depressed_UITests.swift; sourceTree = "<group>"; };
 		CAEE7DC31C07499000DDAA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -346,7 +346,6 @@
 				CA8683691BE004A9003E87A4 /* Resources */,
 				CA80EB201CA1D9EB0079CFBF /* SwiftLint */,
 				8BA495D51B91C8563A18AC2C /* [CP] Embed Pods Frameworks */,
-				9DBEB0946447BA513C8B5EA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -366,7 +365,6 @@
 				CA86837C1BE004A9003E87A4 /* Frameworks */,
 				CA86837D1BE004A9003E87A4 /* Resources */,
 				6966543B10FF84EA2419F9B1 /* [CP] Embed Pods Frameworks */,
-				8F8898BAB14E801A009533BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -551,36 +549,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Depressed?/Pods-Depressed?-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F8898BAB14E801A009533BA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Depressed?Tests/Pods-Depressed?Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9DBEB0946447BA513C8B5EA6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Depressed?/Pods-Depressed?-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CA80EB201CA1D9EB0079CFBF /* SwiftLint */ = {
