@@ -10,12 +10,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         Appearance.setUp()
 
-//        Sesame.shared = .init(
-//            appId: SesameProperties.file.appId,
-//            auth: SesameProperties.file.auth,
-//            versionId: SesameProperties.file.versionId,
-//            userId: SesameProperties.file.userId
-//        )
+        Sesame.shared = .init(
+            appId: SesameProperties.file.appId,
+            auth: SesameProperties.file.auth,
+            versionId: SesameProperties.file.versionId,
+            userId: SesameProperties.file.userId
+        )
 
         return true
     }
