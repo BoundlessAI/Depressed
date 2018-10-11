@@ -4,6 +4,9 @@ use_frameworks!
 
 target 'Depressed?' do
   pod 'ResearchKit', '~> 1.4'
+
+  # Import the iOS sdk by version
+  pod 'Sesame', '~> 0.1.1'
 end
 
 target 'Depressed?Tests' do
