@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		16F00AC31552566453F9F948 /* Pods_Depressed_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0445BB920AF76A8D32066931 /* Pods_Depressed_Tests.framework */; };
 		844E6B3C216F0E6F002DBCAC /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844E6B3B216F0E6F002DBCAC /* APIKeys.plist */; };
+		846E33DD216F174F00913A2D /* SesameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E33DC216F174F00913A2D /* SesameTests.swift */; };
+		846E33DE216F184200913A2D /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844E6B3B216F0E6F002DBCAC /* APIKeys.plist */; };
 		BD026792266A1AC800389147 /* Pods_Depressed_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E4989AAC82B1DF0F7718C3 /* Pods_Depressed_.framework */; };
 		CA3269EF1C65319000AE4E14 /* FindingHelpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3269EE1C65319000AE4E14 /* FindingHelpViewModel.swift */; };
 		CA3269F11C65407D00AE4E14 /* FindingHelpInformationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3269F01C65407D00AE4E14 /* FindingHelpInformationSpec.swift */; };
@@ -77,6 +79,7 @@
 		13164B5C1C722D1100434654 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E981D40189F428C507CD38B /* Pods-Depressed?Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Depressed?Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Depressed?Tests/Pods-Depressed?Tests.release.xcconfig"; sourceTree = "<group>"; };
 		844E6B3B216F0E6F002DBCAC /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = APIKeys.plist; path = ../APIKeys.plist; sourceTree = "<group>"; };
+		846E33DC216F174F00913A2D /* SesameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesameTests.swift; sourceTree = "<group>"; };
 		869A69000EBDFACA450911FA /* Pods-Depressed?Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Depressed?Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Depressed?Tests/Pods-Depressed?Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C05E2E075C67DA21FE590FD5 /* Pods-Depressed?.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Depressed?.release.xcconfig"; path = "Pods/Target Support Files/Pods-Depressed?/Pods-Depressed?.release.xcconfig"; sourceTree = "<group>"; };
 		C5E4989AAC82B1DF0F7718C3 /* Pods_Depressed_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Depressed_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -322,6 +325,7 @@
 				CA6600401BEC014200042495 /* Model */,
 				CA3269F21C654B2900AE4E14 /* Supporting Files */,
 				CA66004A1BED454E00042495 /* ViewModel */,
+				846E33DC216F174F00913A2D /* SesameTests.swift */,
 			);
 			path = "Depressed?Tests";
 			sourceTree = "<group>";
@@ -466,6 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4423EE1BF3F15500606895 /* InfoPlist.strings in Resources */,
+				846E33DE216F184200913A2D /* APIKeys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,13 +527,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Depressed?Tests/Pods-Depressed?Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResearchKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
@@ -608,6 +611,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3269F11C65407D00AE4E14 /* FindingHelpInformationSpec.swift in Sources */,
+				846E33DD216F174F00913A2D /* SesameTests.swift in Sources */,
 				CAF8A55D1C29F0E600E30E90 /* QuestionSpec.swift in Sources */,
 				CA66004C1BED490200042495 /* MutableEvaluation.swift in Sources */,
 				CA3269F61C6553C000AE4E14 /* FindingHelpInformationExtension.swift in Sources */,

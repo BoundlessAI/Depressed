@@ -7,13 +7,14 @@ target 'Depressed?' do
 
   # Import the iOS sdk by version
   pod 'Sesame', '~> 0.1.1'
+
+  target 'Depressed?Tests' do
+      inherit! :search_paths
+      pod 'Quick', '~> 1.1'
+      pod 'Nimble', '~> 7.0'
+  end
 end
 
-target 'Depressed?Tests' do
-  pod 'Quick', '~> 1.1'
-  pod 'Nimble', '~> 7.0'
-  pod 'ResearchKit', '~> 1.4'
-end
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
