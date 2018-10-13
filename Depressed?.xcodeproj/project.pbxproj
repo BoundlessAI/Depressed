@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		16F00AC31552566453F9F948 /* Pods_Depressed_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0445BB920AF76A8D32066931 /* Pods_Depressed_Tests.framework */; };
-		844E6B3C216F0E6F002DBCAC /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844E6B3B216F0E6F002DBCAC /* APIKeys.plist */; };
+		842EFDCB216FCE2200018A9C /* Sesame+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EFDCA216FCE2200018A9C /* Sesame+Utilities.swift */; };
+		842EFDCC216FCE2200018A9C /* Sesame+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EFDCA216FCE2200018A9C /* Sesame+Utilities.swift */; };
+		844E6B3C216F0E6F002DBCAC /* Sesame.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844E6B3B216F0E6F002DBCAC /* Sesame.plist */; };
 		846E33DD216F174F00913A2D /* SesameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E33DC216F174F00913A2D /* SesameTests.swift */; };
-		846E33DE216F184200913A2D /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844E6B3B216F0E6F002DBCAC /* APIKeys.plist */; };
+		846E33DE216F184200913A2D /* Sesame.plist in Resources */ = {isa = PBXBuildFile; fileRef = 844E6B3B216F0E6F002DBCAC /* Sesame.plist */; };
 		BD026792266A1AC800389147 /* Pods_Depressed_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E4989AAC82B1DF0F7718C3 /* Pods_Depressed_.framework */; };
 		CA3269EF1C65319000AE4E14 /* FindingHelpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3269EE1C65319000AE4E14 /* FindingHelpViewModel.swift */; };
 		CA3269F11C65407D00AE4E14 /* FindingHelpInformationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3269F01C65407D00AE4E14 /* FindingHelpInformationSpec.swift */; };
@@ -78,7 +80,8 @@
 		13164B5B1C722BB600434654 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		13164B5C1C722D1100434654 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E981D40189F428C507CD38B /* Pods-Depressed?Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Depressed?Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Depressed?Tests/Pods-Depressed?Tests.release.xcconfig"; sourceTree = "<group>"; };
-		844E6B3B216F0E6F002DBCAC /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = APIKeys.plist; path = ../APIKeys.plist; sourceTree = "<group>"; };
+		842EFDCA216FCE2200018A9C /* Sesame+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sesame+Utilities.swift"; sourceTree = "<group>"; };
+		844E6B3B216F0E6F002DBCAC /* Sesame.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Sesame.plist; path = ../keys/Depressed/Sesame.plist; sourceTree = "<group>"; };
 		846E33DC216F174F00913A2D /* SesameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesameTests.swift; sourceTree = "<group>"; };
 		869A69000EBDFACA450911FA /* Pods-Depressed?Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Depressed?Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Depressed?Tests/Pods-Depressed?Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C05E2E075C67DA21FE590FD5 /* Pods-Depressed?.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Depressed?.release.xcconfig"; path = "Pods/Target Support Files/Pods-Depressed?/Pods-Depressed?.release.xcconfig"; sourceTree = "<group>"; };
@@ -286,7 +289,7 @@
 		CA8683621BE004A8003E87A4 = {
 			isa = PBXGroup;
 			children = (
-				844E6B3B216F0E6F002DBCAC /* APIKeys.plist */,
+				844E6B3B216F0E6F002DBCAC /* Sesame.plist */,
 				CA86836D1BE004A9003E87A4 /* Depressed? */,
 				CA8683821BE004A9003E87A4 /* Depressed?Tests */,
 				CAEE7DC01C07499000DDAA5E /* Depressed?UITests */,
@@ -314,6 +317,7 @@
 				CA66003F1BEC012100042495 /* View */,
 				CA6600471BED244C00042495 /* ViewModel */,
 				CA86836E1BE004A9003E87A4 /* AppDelegate.swift */,
+				842EFDCA216FCE2200018A9C /* Sesame+Utilities.swift */,
 			);
 			path = "Depressed?";
 			sourceTree = "<group>";
@@ -459,7 +463,7 @@
 				CA4423F31BF3F15600606895 /* Localizable.strings in Resources */,
 				CA8683791BE004A9003E87A4 /* LaunchScreen.storyboard in Resources */,
 				CA4423E91BF3F15400606895 /* InfoPlist.strings in Resources */,
-				844E6B3C216F0E6F002DBCAC /* APIKeys.plist in Resources */,
+				844E6B3C216F0E6F002DBCAC /* Sesame.plist in Resources */,
 				CA8683761BE004A9003E87A4 /* Assets.xcassets in Resources */,
 				CA8683741BE004A9003E87A4 /* Main.storyboard in Resources */,
 			);
@@ -470,7 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4423EE1BF3F15500606895 /* InfoPlist.strings in Resources */,
-				846E33DE216F184200913A2D /* APIKeys.plist in Resources */,
+				846E33DE216F184200913A2D /* Sesame.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +606,7 @@
 				CA86838F1BE00981003E87A4 /* SelfTestTask.swift in Sources */,
 				CA86836F1BE004A9003E87A4 /* AppDelegate.swift in Sources */,
 				CA4F98E81C4ECA9D004E070A /* FindingHelpInformation.swift in Sources */,
+				842EFDCB216FCE2200018A9C /* Sesame+Utilities.swift in Sources */,
 				CA855A401C284E7300C9376E /* ExplanationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +618,7 @@
 				CA3269F11C65407D00AE4E14 /* FindingHelpInformationSpec.swift in Sources */,
 				846E33DD216F174F00913A2D /* SesameTests.swift in Sources */,
 				CAF8A55D1C29F0E600E30E90 /* QuestionSpec.swift in Sources */,
+				842EFDCC216FCE2200018A9C /* Sesame+Utilities.swift in Sources */,
 				CA66004C1BED490200042495 /* MutableEvaluation.swift in Sources */,
 				CA3269F61C6553C000AE4E14 /* FindingHelpInformationExtension.swift in Sources */,
 				CAF8A5591C29E44400E30E90 /* AnswerSpec.swift in Sources */,
